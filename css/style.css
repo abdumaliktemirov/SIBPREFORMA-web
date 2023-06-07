@@ -1,15 +1,43 @@
+@font-face {
+  font-family: "XoloniumBold";
+  src: url(../fonts/Xolonium-Regular.otf);
+}
+
+@font-face {
+  font-family: "Xolonium ";
+  src: url(../fonts/Xolonium-Bold.otf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
 
 body {
   margin: 0;
   padding: 0;
   width: 100%;
-  /* font-family: "Gotham Pro", sans-serif; */
+  font-family: "Gotham Pro", sans-serif;
+  background: #EBEBEB;
 }
 
-a, p, h1, h2, h3, h4, h5, h6 {
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   text-decoration: none;
   line-height: 1.2;
+}
+
+ul,
+ol {
+  margin: 0;
 }
 
 button:focus,
@@ -24,16 +52,316 @@ input:focus {
   outline: none !important;
 }
 
-a:active, a:focus {
+a:active,
+a:focus {
   outline: 0;
   outline: none !important;
   border: none;
   -moz-outline-style: none;
 }
+
 a {
   display: inline-block;
 }
 
 .wrapper {
   overflow: hidden;
+  position: relative;
+  padding-bottom: 10000px;
 }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* contact us */
+.contact-us {
+  position: fixed;
+  top: 650px;
+  right: 104px;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+}
+
+.contact-cal {
+  cursor: pointer;
+  background: #027BD6;
+  border-radius: 100px;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+}
+
+.contact-cal:hover {
+  transform: scale(1.1);
+}
+
+.contact-sms {
+  cursor: pointer;
+  background: #027BD6;
+  border-radius: 100px;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+}
+
+/* contact us */
+
+/* adaptation all */
+.adaptation {
+  font-family: "XoloniumBold";
+  margin: 120px 0 40px 0;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 130%;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  color: #001F36;
+}
+
+/* adaptation all */
+
+/* Header seris start */
+#header {
+  background: #001F36;
+  padding: 20px 0 20px 0;
+}
+
+.header-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-items {
+  display: flex;
+  gap: 40px;
+}
+
+.header-item a {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 130%;
+  padding: 0;
+  color: #FFFFFF;
+}
+
+.header-log {
+  cursor: pointer;
+}
+
+.header-log__info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-info__email {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-numer {
+  font-family: 'XoloniumBold';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.header-email {
+  font-family: 'XoloniumBold';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.header-social-medya {
+  display: flex;
+  gap: 10px;
+}
+
+.header-social-medya a {
+  transition: 0.2s;
+}
+
+.header-social-medya a:hover {
+  transform: scale(1.1);
+}
+
+.social-medya__vr {
+  background: #027BD6;
+  border-radius: 2px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.social-medya__tg {
+  background: #27A6E5;
+  border-radius: 2px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.social-medya__ins {
+  background: radial-gradient(230.93% 230.93% at 102.01% 2.03%, #F9ED32 0%, #EE2A7B 36%, #D22A8A 44%, #8B2AB2 60%, #1B2AF0 83%, #002AFF 88%);
+  border-radius: 2px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+/* Header seris end */
+
+/* Preform seris start */
+.preform-wrap {
+  background-image: url(../images/preform-img.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.preform-fluid__title {
+  margin: 454px 0 88px 0;
+}
+
+.preform-fluid__title h1 span {
+  font-family: 'XoloniumBold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #027BD6;
+  letter-spacing: 5px;
+}
+
+.preform-fluid__title h1 {
+  font-family: 'XoloniumBold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+}
+
+.preform-fluid__title h2 {
+  font-family: 'XoloniumBold';
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 130%;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  max-width: 791px;
+  margin-top: 69px;
+}
+
+/* Preform seris end */
+
+/* Company seris start */
+.company-border {
+  border: 2px solid #027BD6;
+}
+
+.company-border:last-child {
+  border-left: none;
+}
+
+.company-info {
+  padding: 30px;
+}
+
+.company-info h3 {
+  font-family: 'XoloniumBold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #001F36;
+  width: 515px;
+  letter-spacing: 1px;
+}
+
+.company-info span {
+  font-family: 'XoloniumBold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  color: #027BD6;
+}
+
+/* Company seris end */
+
+/* Product seris start  */
+.product-wrap {
+  padding: 40px 20px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+}
+
+.product-wrap__title h3 {
+  font-family: 'XoloniumBold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #001F36;
+
+}
+
+.product-wrap__cost h5 {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 130%;
+  list-style-position: outside;
+  padding: 0;
+  color: #001F36;
+}
+
+.product-wrap__btn button {
+  border: 1px solid #027BD6;
+  border-radius: 4px;
+  padding: 17px 50px;
+  background: #FFFFFF;
+  font-family: 'XoloniumBold';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #001F36;
+  transition: 0.6s;
+}
+
+.product-wrap__btn button:hover {
+  background: #002E51;
+  border: none;
+  color: #FFF;
+}
+
+/* Product seris end  */
