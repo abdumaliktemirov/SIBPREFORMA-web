@@ -75,8 +75,8 @@ a {
   margin: 0 auto;
 }
 
-/* contact us */
-.contact-us {
+/* call us */
+.call-us {
   position: fixed;
   top: 650px;
   right: 104px;
@@ -85,7 +85,7 @@ a {
   gap: 42px;
 }
 
-.contact-cal {
+.call-number {
   cursor: pointer;
   background: #027BD6;
   border-radius: 100px;
@@ -93,13 +93,14 @@ a {
   height: 70px;
   line-height: 70px;
   text-align: center;
+  transition: 0.3s;
 }
 
-.contact-cal:hover {
-  transform: scale(1.1);
+.call-number:hover {
+  transform: scale(1.2);
 }
 
-.contact-sms {
+.call-sms {
   cursor: pointer;
   background: #027BD6;
   border-radius: 100px;
@@ -107,9 +108,14 @@ a {
   height: 70px;
   line-height: 70px;
   text-align: center;
+  transition: 0.3s;
 }
 
-/* contact us */
+.call-sms:hover {
+  transform: scale(1.2);
+}
+
+/* call us */
 
 /* adaptation all */
 .adaptation {
@@ -364,4 +370,166 @@ a {
   color: #FFF;
 }
 
+.product-btn__bik button {
+  width: 750px;
+  height: 55px;
+  border: 1px solid #027BD6;
+  border-radius: 4px;
+  background: #FFFFFF;
+  font-family: 'XoloniumBold';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #001F36;
+  transition: 0.6s;
+  margin-top: 10px;
+}
+
+.product-btn__bik button:hover {
+  background: #002E51;
+  border: none;
+  color: #FFF;
+}
+
+.product-cards__info {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  text-align: end;
+}
+
+.product-cards__info h4 {
+  font-family: 'Exo 2';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 130%;
+}
+
+.product-catalog__transition button {
+  position: absolute;
+  font-family: 'XoloniumBold';
+  width: 1200px;
+  height: 45px;
+  background: #027BD6;
+  border-radius: 4px;
+  margin-top: 60px;
+  border: none;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.product-catalog__transition button:hover {
+  background: #002E51;
+  border: none;
+  color: #FFF;
+}
+
 /* Product seris end  */
+
+/* contact-us seris start */
+#contact-us {
+  margin-top: 250px;
+  background: #FFFFFF;
+}
+
+.contact-fluid__title h2 {
+  font-family: 'XoloniumBold';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  color: #001F36;
+  margin: 40px 0 20px 0;
+}
+
+.contact-fluid__title h4 {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 130%;
+  color: #001F36;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.contact-lavel__name input {
+  width: 380px;
+  height: 50px;
+  background: #FFFFFF;
+  border: 2px solid #027BD6;
+  border-radius: 4px;
+  padding-left: 20px;
+}
+
+.contact-lavel__cal input {
+  width: 380px;
+  height: 50px;
+  background: #FFFFFF;
+  border: 2px solid #027BD6;
+  border-radius: 4px;
+  padding-left: 20px;
+}
+
+.contact-lavel__email input {
+  width: 380px;
+  height: 50px;
+  background: #FFFFFF;
+  border: 2px solid #027BD6;
+  border-radius: 4px;
+  padding-left: 20px;
+}
+
+.contact-fluid__btn button {
+  width: 1200px;
+  height: 45px;
+  background: #027BD6;
+  color: #fff;
+  border: none;
+  font-family: 'XoloniumBold';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  margin-top: 50px;
+}
+
+.contact-consent h4 {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 130%;
+  color: #728DA1;
+  text-align: center;
+  margin: 30px 0 24px 0;
+}
+
+/* contact-us seris end */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer seris start */
+#footer {
+  background: #001F36;
+}
+.footer-fluid{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+/* Footer seris end */
