@@ -4,7 +4,7 @@
 }
 
 @font-face {
-  font-family: "Xolonium ";
+  font-family: "Xolonium";
   src: url(../fonts/Xolonium-Bold.otf);
 }
 
@@ -12,6 +12,7 @@
   padding: 0;
   margin: 0;
   list-style: none;
+  box-sizing: border-box;
 }
 
 body {
@@ -67,12 +68,12 @@ a {
 .wrapper {
   overflow: hidden;
   position: relative;
-  padding-bottom: 10000px;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0;
 }
 
 /* call us */
@@ -245,7 +246,6 @@ a {
 
 .preform-fluid__title h1 span {
   font-family: 'XoloniumBold';
-  font-style: normal;
   font-weight: 700;
   font-size: 90px;
   line-height: 130%;
@@ -256,7 +256,6 @@ a {
 
 .preform-fluid__title h1 {
   font-family: 'XoloniumBold';
-  font-style: normal;
   font-weight: 700;
   font-size: 90px;
   line-height: 130%;
@@ -294,7 +293,6 @@ a {
 
 .company-info h3 {
   font-family: 'XoloniumBold';
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 130%;
@@ -306,7 +304,6 @@ a {
 
 .company-info span {
   font-family: 'XoloniumBold';
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 130%;
@@ -329,7 +326,6 @@ a {
 
 .product-wrap__title h3 {
   font-family: 'XoloniumBold';
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 130%;
@@ -340,7 +336,6 @@ a {
 
 .product-wrap__cost h5 {
   font-family: 'Exo 2';
-  font-style: normal;
   font-weight: 300;
   font-size: 20px;
   line-height: 130%;
@@ -355,7 +350,6 @@ a {
   padding: 17px 50px;
   background: #FFFFFF;
   font-family: 'XoloniumBold';
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 130%;
@@ -377,7 +371,6 @@ a {
   border-radius: 4px;
   background: #FFFFFF;
   font-family: 'XoloniumBold';
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 130%;
@@ -394,10 +387,8 @@ a {
 }
 
 .product-cards__info {
-  display: flex;
-  justify-content: end;
-  align-items: end;
   text-align: end;
+  margin-top: 20px;
 }
 
 .product-cards__info h4 {
@@ -408,7 +399,6 @@ a {
 }
 
 .product-catalog__transition button {
-  position: absolute;
   font-family: 'XoloniumBold';
   width: 1200px;
   height: 45px;
@@ -428,15 +418,14 @@ a {
 
 /* Product seris end  */
 
-/* contact-us seris start */
-#contact-us {
+/* questionnaire-us seris start */
+#questionnaire-us {
   margin-top: 250px;
   background: #FFFFFF;
 }
 
-.contact-fluid__title h2 {
+.questionnaire-fluid__title h2 {
   font-family: 'XoloniumBold';
-  font-style: normal;
   font-weight: 400;
   font-size: 34px;
   line-height: 130%;
@@ -447,9 +436,8 @@ a {
   margin: 40px 0 20px 0;
 }
 
-.contact-fluid__title h4 {
+.questionnaire-fluid__title h4 {
   font-family: 'Exo 2';
-  font-style: normal;
   font-weight: 300;
   font-size: 16px;
   line-height: 130%;
@@ -458,7 +446,7 @@ a {
   margin-bottom: 70px;
 }
 
-.contact-lavel__name input {
+.questionnaire-lavel__name input {
   width: 380px;
   height: 50px;
   background: #FFFFFF;
@@ -467,7 +455,7 @@ a {
   padding-left: 20px;
 }
 
-.contact-lavel__cal input {
+.questionnaire-lavel__cal input {
   width: 380px;
   height: 50px;
   background: #FFFFFF;
@@ -476,7 +464,7 @@ a {
   padding-left: 20px;
 }
 
-.contact-lavel__email input {
+.questionnaire-lavel__email input {
   width: 380px;
   height: 50px;
   background: #FFFFFF;
@@ -485,7 +473,7 @@ a {
   padding-left: 20px;
 }
 
-.contact-fluid__btn button {
+.questionnaire-fluid__btn button {
   width: 1200px;
   height: 45px;
   background: #027BD6;
@@ -496,11 +484,17 @@ a {
   font-size: 16px;
   line-height: 130%;
   margin-top: 50px;
+  transition: 0.3s;
 }
 
-.contact-consent h4 {
+.questionnaire-fluid__btn button:hover {
+  background: #002E51;
+  border: none;
+  color: #FFF;
+}
+
+.questionnaire-consent h4 {
   font-family: 'Exo 2';
-  font-style: normal;
   font-weight: 300;
   font-size: 16px;
   line-height: 130%;
@@ -509,27 +503,264 @@ a {
   margin: 30px 0 24px 0;
 }
 
-/* contact-us seris end */
+/* questionnaire-us seris end */
 
+/* Videos seris start */
+.videos-fluid__title h2 {
+  margin: 120px 0 41px 0;
+  font-family: 'XoloniumBold';
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 130%;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  color: #001F36;
+}
 
+.videos-fluid__play {
+  position: relative;
+}
 
+.videos-fluid__icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 51px;
+  background: #FFFFFF;
+  border: 1px solid #027BD6;
+  border-radius: 50%;
+  transition: 0.3s;
+  transform-origin: center center;
+}
 
+.videos-fluid__icon:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+}
 
+/* Videos seris end */
 
+/* Contact seris start */
+.contact-fluid__title h2 {
+  margin: 120px 0 40px 0;
+}
 
+.contact-fluid__map {
+  position: relative;
+  border: 2px solid #027BD6;
+  width: 1200px;
+  height: 630px;
+  overflow: hidden;
+}
 
+.contact-office-info {
+  position: absolute;
+  top: 0;
+  width: 380px;
+  background: #FFFFFF;
+  border-right: 2px solid #027BD6;
+  border-bottom: 2px solid #027BD6;
+  border-radius: 4px 0px;
+  padding: 40px 12px;
+}
 
+.contact-office-info {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  text-align: center;
+}
 
+.contact-office__title h3 {
+  font-family: 'XoloniumBold';
+  font-size: 18px;
+  line-height: 130%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #001F36;
+}
+
+.contact-office__novosibirsk h4 {
+  font-family: 'Xolonium';
+  font-size: 16px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #001F36;
+  max-width: 330px;
+  margin: 0 auto;
+}
+
+.contact-office__cal h4 {
+  font-family: 'Xolonium';
+  font-size: 16px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #001F36;
+  text-align: right;
+  max-width: 310px;
+}
+
+.contact-office__email h4 {
+  font-family: 'Xolonium';
+  font-size: 16px;
+  line-height: 130%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #001F36;
+}
+
+.contact-fluid__loc {
+  position: absolute;
+  top: 30%;
+  right: 10%;
+}
+
+.production-fluid__map {
+  position: relative;
+  border: 2px solid #027BD6;
+  width: 1200px;
+  height: 630px;
+  overflow: hidden;
+}
+
+.production-office-info {
+  position: absolute;
+  top: 0;
+  width: 380px;
+  background: #FFFFFF;
+  border-right: 2px solid #027BD6;
+  border-bottom: 2px solid #027BD6;
+  border-radius: 4px 0px;
+  padding: 40px 12px;
+}
+
+.production-office-info {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  text-align: center;
+}
+
+.production-office__title h3 {
+  font-family: 'XoloniumBold';
+  font-size: 18px;
+  line-height: 130%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #001F36;
+}
+
+.production-office__novosibirsk h4 {
+  font-family: 'Xolonium';
+  font-size: 16px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #001F36;
+  max-width: 330px;
+  transform: translateX(10px);
+}
+
+.production-office__cal h4 {
+  font-family: 'Xolonium';
+  font-size: 16px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #001F36;
+  text-align: right;
+  max-width: 310px;
+}
+
+.production-office__email h4 {
+  font-family: 'Xolonium';
+  font-size: 16px;
+  line-height: 130%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #001F36;
+}
+
+.production-fluid__loc {
+  position: absolute;
+  top: 40%;
+  right: 30%;
+}
+
+/* Contact seris end */
 
 
 /* Footer seris start */
 #footer {
   background: #001F36;
+  margin-top: 120px;
 }
-.footer-fluid{
-  display: flex;
-  justify-content: space-between;
 
+.footer-fluid__top {
+  display: flex;
+  align-items: center;
+}
+
+.footer-items {
+  display: flex;
+  gap: 30px;
+}
+
+.footer-item a {
+  font-family: 'Exo 2';
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 130%;
+  color: #FFFFFF;
+}
+
+.ft-adaptation-title {
+  font-family: 'Xolonium';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 50px 0 30px 0;
+}
+
+.ft-adaptation-text {
+  font-family: 'Exo 2';
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 130%;
+  color: #FFFFFF;
+}
+
+.footer-info__text {
+  width: 250px;
+}
+
+.footer-address__text {
+  width: 270px;
+}
+
+.footer-fluid__numbers {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 30px;
+}
+
+.footer-fluid__numbers a {
+  font-family: 'Exo 2';
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 130%;
+  color: #FFFFFF;
+}
+
+.footer-sibpreforma__text {
+  font-family: 'Exo 2';
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 130%;
+  color: #728DA1;
+  text-align: center;
+  padding: 60px 0 40px 0;
 }
 
 /* Footer seris end */
