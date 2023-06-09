@@ -86,6 +86,15 @@ a {
   gap: 42px;
 }
 
+.catalog-cal {
+  position: fixed;
+  top: 550px;
+  right: 240px;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+}
+
 .call-number {
   cursor: pointer;
   background: #027BD6;
@@ -764,3 +773,230 @@ a {
 }
 
 /* Footer seris end */
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+/* !! Catalog html start */
+
+/* Catalog seris start */
+
+.catalog-button {
+  width: 285px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  background: #FFFFFF;
+  border: 1px solid #027BD6;
+  border-radius: 0px;
+  text-align: start;
+  font-family: 'XoloniumBold';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #027BD6;
+  padding: 18px;
+}
+
+.nav-pills .nav-link,
+.nav-pills .show>.nav-link {
+  background: #FFFFFF;
+  border: 1px solid #027BD6;
+  border-radius: 0px;
+  text-align: start;
+  font-family: 'XoloniumBold';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 18px;
+}
+
+.catalog-img__flashlight {
+  display: flex;
+  margin: 0 auto;
+}
+
+.catalog-img__shutter {
+  display: flex;
+  margin: 0 auto;
+}
+
+.catalog-img__cover {
+  padding: 12px 0 12px 0;
+}
+
+.catalog-products {
+  padding: 20px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  width: 285px;
+}
+
+.catalog-product__img {
+  padding: 20px 0 20px 0;
+  margin-bottom: 20px;
+}
+
+.catalog-product__title {
+  font-family: 'Exo 2';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 110%;
+  color: #001F36;
+  width: 249px;
+  margin-bottom: 20px;
+}
+
+.catalog-product__min {
+  font-family: 'Exo 2';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 110%;
+  color: #001F36;
+  margin-bottom: 20px;
+}
+
+.catalog-product__info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.catalog-product__info p {
+  font-family: 'Exo 2';
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 110%;
+  color: #001F36;
+  width: 249px;
+}
+
+.catalog-product__info span {
+  font-family: 'Exo 2';
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 110%;
+  font-weight: 400;
+}
+
+.catalog-product__moch p {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 110%;
+  color: #001F36;
+  padding: 20px 0 20px 0;
+}
+
+.catalog-btn {
+  width: 249px;
+  height: 45px;
+  background: #027BD6;
+  border-radius: 4px;
+  font-family: 'Xolonium';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: none;
+  transition: 0.3s;
+}
+
+.catalog-btn:hover {
+  background: #002E51;
+  border: none;
+  color: #FFF;
+}
+
+.catalog-product__prices p {
+  font-family: 'Exo 2';
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+  color: #001F36;
+  width: 230px;
+  margin-top: 10px;
+}
+
+.catalog-wrap {
+  padding: 40px 20px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+}
+
+.catalog-wrap__title h3 {
+  font-family: 'XoloniumBold';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #001F36;
+
+}
+
+.catalog-wrap__cost h5 {
+  font-family: 'Exo 2';
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 130%;
+  list-style-position: outside;
+  padding: 0;
+  color: #001F36;
+}
+
+.catalog-wrap__btn button {
+  border: 1px solid #027BD6;
+  border-radius: 4px;
+  padding: 17px 50px;
+  background: #FFFFFF;
+  font-family: 'XoloniumBold';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #001F36;
+  transition: 0.6s;
+}
+
+.catalog-wrap__btn button:hover {
+  background: #002E51;
+  border: none;
+  color: #FFF;
+}
+
+.catalog-btn__bik button {
+  width: 750px;
+  height: 55px;
+  border: 1px solid #027BD6;
+  border-radius: 4px;
+  background: #FFFFFF;
+  font-family: 'XoloniumBold';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #001F36;
+  transition: 0.6s;
+  margin-top: 10px;
+}
+
+.catalog-btn__bik button:hover {
+  background: #002E51;
+  border: none;
+  color: #FFF;
+}
+
+/* Catalog seris end */
+
+
+
+/* !! Catalog html start */
