@@ -774,7 +774,14 @@ a {
 
 /* Footer seris end */
 
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+
+
+
+
+
+
+
 /* !! Catalog html start */
 
 /* Catalog seris start */
@@ -997,6 +1004,62 @@ a {
 
 /* Catalog seris end */
 
-
-
 /* !! Catalog html start */
+
+
+/* !! Reform html start !! */
+
+/* Reform seris start  */
+.reform-input {
+  height: 25px;
+}
+
+.reform-row__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 381px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.reform-row__cards:focus {
+  border: 2px solid #027BD6;
+
+}
+
+.reform-row__cards {}
+
+.reform-img__title h4 {
+  font-family: 'Xolonium';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #001F36;
+}
+
+/* Reform seris end  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* !! Reform html end !! */
