@@ -1005,34 +1005,82 @@ a {
 /* Catalog seris end */
 
 /* !! Catalog html start */
-
-
-/* !! Reform html start !! */
-
 /* Reform seris start  */
+.reform-fluid {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.reform-icon__x {
+  cursor: pointer;
+  position: absolute;
+  top: 6%;
+  right: 4%;
+  border: none;
+}
+
+.reform-icon__x button {
+  border: none;
+}
+
+.reform-fluid__wag {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 130%;
+  color: #001F36;
+  margin: 40px 0 50px 0;
+}
+
+.reform-fluid__name {
+  font-family: 'XoloniumBold';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  color: #001F36;
+
+}
+
+.reform-fluid__info {
+  font-family: 'Exo 2';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 130%;
+  color: #001F36;
+  text-align: center;
+  margin: 20px 0 60px 0;
+}
+
 .reform-input {
+  width: 25px;
   height: 25px;
 }
 
-.reform-row__cards {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  justify-content: center;
-  align-items: center;
+.reform-card {
+  padding: 30px 20px;
   width: 270px;
-  height: 381px;
+  height: 390px;
   background: #FFFFFF;
   border-radius: 4px;
+  margin-right: 10px;
+}
+
+.reform-row__cards {
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
 }
-
-.reform-row__cards:focus {
-  border: 2px solid #027BD6;
-
-}
-
-.reform-row__cards {}
 
 .reform-img__title h4 {
   font-family: 'Xolonium';
@@ -1043,23 +1091,667 @@ a {
   color: #001F36;
 }
 
+.reform-button {
+  font-family: 'XoloniumBold';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reform-button button {
+  width: 1110px;
+  height: 45px;
+  border: none;
+  background: #027BD6;
+  border-radius: 4px;
+  color: #fff;
+  margin-left: -11px;
+  margin-top: 44px;
+  transition: 0.3s;
+}
+
+.reform-button button:hover {
+  background: #002E51;
+  border: none;
+  color: #FFF;
+}
+
 /* Reform seris end  */
 
+/* Prices seris start */
+.prices-fluid {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.prices-icon__x {
+  cursor: pointer;
+  position: absolute;
+  top: 6%;
+  right: 4%;
+  border: none;
+}
 
+.prices-icon__x button {
+  border: none;
+}
 
+.prices-icon__left {
+  cursor: pointer;
+  position: absolute;
+  top: 6%;
+  left: 4%;
+  border: none;
+}
 
+.prices-icon__left button {
+  border: none;
+}
 
+.prices-card {
+  padding: 40px 20px;
+  width: 362px;
+  height: 200px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  margin-right: 10px;
+}
 
+.prices-row__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+}
 
+.prices-fluid__wag {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 130%;
+  color: #001F36;
+  margin: 40px 0 50px 0;
 
+}
 
+.prices-fluid__name {
+  font-family: 'XoloniumBold';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  color: #001F36;
 
+}
 
+.prices-fluid__info {
+  font-family: 'Exo 2';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 130%;
+  color: #001F36;
+  text-align: center;
+  margin: 20px 0 60px 0;
+}
 
+.prices-title {
+  font-family: 'XoloniumBold';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #001F36;
+}
 
+.prices-moch {
+  font-family: 'XoloniumBold';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #027BD6;
+  margin: 3px 0 3px 0;
+}
 
+.prices-input {
+  width: 25px;
+  height: 25px;
+}
 
+.prices-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.prices-button button {
+  font-family: 'XoloniumBold';
+  width: 1110px;
+  height: 45px;
+  border: none;
+  background: #027BD6;
+  border-radius: 4px;
+  color: #fff;
+  margin: 178px 0 0 -11px;
+  transition: 0.3s;
+}
 
+.prices-button button:hover {
+  background: #002E51;
+  border: none;
+  color: #FFF;
+}
+
+/* Prices seris end */
+
+/* Number entry seris start */
+
+.entry-fluid {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.entry-icon__x {
+  cursor: pointer;
+  position: absolute;
+  top: 6%;
+  right: 4%;
+  border: none;
+}
+
+.entry-icon__x button {
+  border: none;
+}
+
+.entry-icon__left {
+  cursor: pointer;
+  position: absolute;
+  top: 6%;
+  left: 4%;
+  border: none;
+}
+
+.entry-icon__left button {
+  border: none;
+}
+
+.entry-fluid__wag {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 130%;
+  color: #001F36;
+  margin: 40px 0 50px 0;
+
+}
+
+.entry-fluid__name {
+  font-family: 'XoloniumBold';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  color: #001F36;
+
+}
+
+.entry-fluid__info {
+  font-family: 'Exo 2';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 130%;
+  color: #001F36;
+  text-align: center;
+}
+
+.entry-row__cards input {
+  box-sizing: border-box;
+  width: 500px;
+  height: 50px;
+  background: #FFFFFF;
+  border: 2px solid #027BD6;
+  border-radius: 4px;
+  padding-left: 30px;
+}
+
+.entry-input {
+  width: 25px;
+  height: 25px;
+}
+
+.entry-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.entry-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 180px 0 250px 0;
+}
+
+.entry-button button {
+  font-family: 'XoloniumBold';
+  width: 1110px;
+  height: 45px;
+  border: none;
+  background: #027BD6;
+  border-radius: 4px;
+  color: #fff;
+  margin-left: -11px;
+  transition: 0.3s;
+}
+
+.entry-button button:hover {
+  background: #002E51;
+  border: none;
+  color: #FFF;
+}
+
+/* Number entry seris end */
+
+/* Request seris tart */
+.request-fluid {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.request-icon__x {
+  cursor: pointer;
+  position: absolute;
+  top: 6%;
+  right: 4%;
+  border: none;
+}
+
+.request-icon__x button {
+  border: none;
+}
+
+.request-fluid__name {
+  font-family: 'XoloniumBold';
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 130%;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  color: #001F36;
+  margin-top: 105px;
+}
+
+.request-fluid__info {
+  font-family: 'Exo 2';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 130%;
+  color: #001F36;
+  text-align: center;
+  margin: 10px 0 140px 0;
+}
+
+.request-fluid__title img {
+  margin-bottom: 200px;
+}
+
+/* Request seris end */
+
+/* Apply seris start */
+#apply {
+  border: solid 1px red;
+  width: 700px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.apply-fluid {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.apply-icon__x {
+  cursor: pointer;
+  position: absolute;
+  top: 6%;
+  right: 4%;
+  border: none;
+}
+
+.apply-icon__x button {
+  border: none;
+}
+
+.apply-fluid__name {
+  font-family: 'XoloniumBold';
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 130%;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  color: #001F36;
+  margin: 100px 0 60px 0;
+  width: 620px;
+}
+
+.apply-fluid__info {
+  font-family: 'Exo 2';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 130%;
+  color: #001F36;
+  text-align: center;
+  margin: 10px 0 140px 0;
+}
+
+.apply-card input {
+  width: 620px;
+  height: 50px;
+  background: #FFFFFF;
+  border: 2px solid #027BD6;
+  border-radius: 4px;
+  padding-left: 20px;
+}
+
+.apply-fluid__title img {
+  margin-bottom: 200px;
+}
+
+.apply-button button {
+  font-family: 'XoloniumBold';
+  width: 620px;
+  height: 45px;
+  background: #027BD6;
+  border-radius: 4px;
+  border: none;
+  color: #FFF;
+  transition: 0.3s;
+  margin: 100px 0 30px 0;
+}
+
+.apply-button button:hover {
+  background: #002E51;
+  border: none;
+  color: #FFF;
+}
+
+.apply-info h4 {
+  font-family: 'Exo 2';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 130%;
+  color: #728DA1;
+}
+
+/* Appley seris end */
+
+/* Free Call seris start */
+#free {
+  border: solid 1px red;
+  width: 700px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.free-fluid {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.free-icon__x {
+  cursor: pointer;
+  position: absolute;
+  top: 6%;
+  right: 4%;
+  border: none;
+}
+
+.free-icon__x button {
+  border: none;
+}
+
+.free-fluid__name {
+  font-family: 'XoloniumBold';
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 130%;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  color: #001F36;
+  margin: 100px 0 60px 0;
+  width: 620px;
+}
+
+.free-fluid__info {
+  font-family: 'Exo 2';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 130%;
+  color: #001F36;
+  text-align: center;
+  margin: 10px 0 140px 0;
+}
+
+.free-card input {
+  width: 620px;
+  height: 50px;
+  background: #FFFFFF;
+  border: 2px solid #027BD6;
+  border-radius: 4px;
+  padding-left: 20px;
+}
+
+.free-fluid__title img {
+  margin-bottom: 200px;
+}
+
+.free-button button {
+  font-family: 'XoloniumBold';
+  width: 620px;
+  height: 45px;
+  background: #027BD6;
+  border-radius: 4px;
+  border: none;
+  color: #FFF;
+  transition: 0.3s;
+  margin: 200px 0 30px 0;
+}
+
+.free-button button:hover {
+  background: #002E51;
+  border: none;
+  color: #FFF;
+}
+
+.free-info h4 {
+  font-family: 'Exo 2';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 130%;
+  color: #728DA1;
+}
+
+/* Free Call seris end */
+
+/* write seris start */
+#write {
+  border: solid 1px red;
+  width: 700px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.write-fluid {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.write-icon__x {
+  cursor: pointer;
+  position: absolute;
+  top: 6%;
+  right: 4%;
+  border: none;
+}
+
+.write-icon__x button {
+  border: none;
+}
+
+.write-fluid__name {
+  font-family: 'XoloniumBold';
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 130%;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  color: #001F36;
+  margin: 100px 0 60px 0;
+  width: 620px;
+}
+
+.write-fluid__info {
+  font-family: 'Exo 2';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 130%;
+  color: #001F36;
+  text-align: center;
+  margin: 10px 0 140px 0;
+}
+
+.write-card input {
+  width: 620px;
+  height: 50px;
+  background: #FFFFFF;
+  border: 2px solid #027BD6;
+  border-radius: 4px;
+  padding-left: 20px;
+}
+
+.write-card textarea {
+  width: 620px;
+  height: 120px;
+  background: #FFFFFF;
+  border: 2px solid #027BD6;
+  border-radius: 4px;
+  padding-left: 20px;
+}
+
+.write-fluid__title img {
+  margin-bottom: 200px;
+}
+
+.write-button button {
+  font-family: 'XoloniumBold';
+  width: 620px;
+  height: 45px;
+  background: #027BD6;
+  border-radius: 4px;
+  border: none;
+  color: #FFF;
+  transition: 0.3s;
+  margin: 95px 0 30px 0;
+}
+
+.write-button button:hover {
+  background: #002E51;
+  border: none;
+  color: #FFF;
+}
+
+.write-info h4 {
+  font-family: 'Exo 2';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 130%;
+  color: #728DA1;
+}
+
+/* write seris end */
+
+/* Appliction seris start */
+#appliction {
+  border: solid 1px red;
+  width: 700px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.appliction-fluid {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.appliction-icon__x {
+  cursor: pointer;
+  position: absolute;
+  top: 6%;
+  right: 4%;
+  border: none;
+}
+
+.appliction-icon__x button {
+  border: none;
+}
+
+.appliction-fluid__name {
+  font-family: 'XoloniumBold';
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 130%;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  color: #001F36;
+  margin-top: 100px;
+  width: 620px;
+}
+
+.appliction-fluid__info {
+  font-family: 'Exo 2';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 130%;
+  color: #001F36;
+  text-align: center;
+  margin: 10px 0 120px 0;
+}
+
+.appliction-img {
+  margin-bottom: 180px;
+}
+
+/* Appliction seris end */
 /* !! Reform html end !! */
